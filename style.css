@@ -1,0 +1,759 @@
+body{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;}
+html{
+    font-family: 'Bebas Neue', cursive;
+}
+header{
+    border: 2px bisque;
+    border-radius: 1px;
+    background-color: rgb(40, 37, 37);
+    display: flex;
+    box-shadow: 0 10px 10px aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+}
+header h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+}
+header .home1{
+    text-decoration: none;
+}
+header .asd{
+    background-color: red;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 40px;
+    font-size: 25px;
+}
+header ul li{
+    margin-right: 15px;
+    padding: 10px 30px;
+    text-align: center;
+}
+header ul  a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header ul li:hover{
+    background-color:red;
+    cursor: pointer;
+}
+
+.awal {
+    border: 7px solid rgba(255, 255, 255, 0.071);
+    border-width: 1px;
+    border-radius: 5px;
+    background-image: url('./pexels-artem-beliaikin-994517.jpg');
+    background-size: cover;
+    width: 99.85%;
+    height:567.2px;
+    background-size:contain;
+    margin-top: 50px;
+    margin-bottom: -30px;
+}
+.awal a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: red;
+    margin-left: 570px;
+    margin-bottom: -400px;
+    font-weight: bold;
+    padding: 20px;
+}
+.awal h1{
+    color:aliceblue;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+#container{
+   display: flex;
+   justify-content: space-between;
+   margin: 20px 40px;
+   font-size:20px;
+   padding-top: 100px;
+   margin-top: -30px;
+}
+.profil{
+    margin-right: 0;
+    margin-left: 10px;
+    border: 3px ridge grey;
+    border-width: 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    position:static;
+    margin-right: -40px;
+    width: 300px;
+}
+.profil p{
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+.profil img{
+    width: 130px;
+    margin-left: 65px;
+    position: relative;
+}
+.profil .swa{
+    font-size: 50px;
+    text-align: center;
+}
+.product {
+    width: 1255px;
+    border: 3px ridge grey;
+    border-width: 4px;
+    border-radius: 4px;
+    margin-left: -40px;
+    margin-top: 0px;
+}
+.product h1{
+    font-size: 35px;
+    margin: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product .ul{
+    display: flex;
+    justify-content: space-between;
+    margin:0 ;
+}
+.product{
+    padding: 20px;
+}
+.product .kk{
+    margin: 20px 50px;
+}
+#produk1{
+    text-align: center;
+    margin: 20px;
+
+}
+.bagian1{
+    position: sticky;
+    top: 20px;
+}
+#produk1 .pro{
+    width: 18%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 2px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 15px;  
+    transition: 0.2s ease;
+    position: relative;
+}
+#produksi .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+#produk1 .pro img{
+    width: 150px;
+    height: 230px;
+    border-radius: 20px;
+}
+#produk1 .des img{
+    width: 30px;
+    height: 30px;
+    margin-left: 110px;
+    bottom: 20px;
+    position: absolute;
+    right: 20px;
+}
+#produk1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#produk1 .pro .des span{
+    color: #0606063;
+    font-size: 12px;
+    text-transform:uppercase;
+}
+#produk1 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+    text-transform:capitalize;
+}
+#produk1 .pro .des i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#produk1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+.pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+#spanduk{
+    margin: 40px 0;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.product .ul .baju{
+    border: 3px groove  ;
+    border-radius: 6px;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: aqua;
+     cursor: pointer;
+}
+.product .ul .baju img{
+    width: 250px;
+    height: 330px;
+}
+.product .ul .baju:hover{
+    background-color: rgb(46, 44, 44);
+    color: aliceblue;
+}
+.product .ul .celana{
+    border: 3px groove ;
+    border-radius: 6px;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.product .ul .celana a{
+    list-style: none;
+    color: black;
+}
+.product .ul .celana img{
+    width: 250px;
+}
+.product .ul .celana:hover{
+    background-color: rgb(46, 44, 44);
+    color: aliceblue;
+}
+.product .ul .jamtangan{
+    border: 3px groove ;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.product .ul .jamtangan img{
+    width: 250px;
+    height: 330px;
+}
+.product .ul .jamtangan:hover{
+    background-color: rgb(46, 44, 44);
+    color: aliceblue;
+}
+.product .ul a{
+    list-style: none;
+    color: black;
+}
+.product .ul2 a{
+    list-style: none;
+    color: black;
+}
+.product .ul2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+}
+.product .ul2 .sepatu{
+    border: 3px groove ;
+    border-radius: 6px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 45px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.product .ul2 .sepatu img{
+    width: 250px;
+    height: 330px;
+}
+.product .ul2 .sepatu:hover{
+    background-color: rgb(46, 44, 44);
+    color: aliceblue;
+}
+.product .ul2 .topi{
+    border: 3px groove ;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.product .ul2 .topi img{
+    width: 250px;
+    height: 330px;
+}
+.product .ul2 .topi:hover{
+    background-color: rgb(46, 44, 44);
+    color: aliceblue;
+}
+.product .ul2 .kaoskaki{
+    border: 3px groove ;
+    border-radius: 6px;
+    margin-left: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.product .ul2 .kaoskaki img{
+    width: 250px;
+    height: 330px;
+}
+.product .ul2 .kaoskaki:hover{
+    background-color: rgb(46, 44, 44);
+    color: aliceblue;
+}
+#barangbaju{
+    margin-top: 1000px;
+    margin: 70px 0px;
+    border: 3px ridge grey;
+    border-width: 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    position:static;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(40, 37, 37);
+}
+
+#barangbaju .pilihanbaju{
+    border: 5px groove;
+    align-items: center;
+    margin: 30px;
+    margin-left: -300px;
+    margin-top: 100px;
+    padding: 30px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+#barangbaju .pilihanbaju p{
+    font-size: 25px;
+}
+#barangbaju .judulbaju h1{
+    color: white;
+    font-size: 40px;
+    margin: 30px;
+    margin-left: 50px;
+}
+#barangbaju .pilihanbaju .tombol{
+    color: white;
+    border: 3px gray;
+    cursor: pointer;
+    background-color: black;
+}
+#barangbaju .pilihanbaju .gambar{
+    width: 150px;
+    height: 200px;
+}
+#barangbaju .pesan{
+    display: flex;
+    align-items: center;
+}
+#barangsepatu .pesan:hover{
+    background-color: brown;
+}
+#barangbaju .pesan h1{
+    border: 4px outset grey;
+    background-color:white ;
+}
+#barangbaju .pesan h1 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(40, 37, 37);
+    border: 4px outset aliceblue;
+    background-color: aliceblue;
+}
+.lk{
+    font-size: 15px;
+    font-weight: 500;
+}
+.lk:hover{
+    cursor: pointer;
+    background-color: red;
+    color: aliceblue;
+    border: 1px solid transparent;
+}
+#barangcelana{
+    margin-top: 1000px;
+    margin: 70px 0px;
+    border: 3px ridge grey;
+    border-width: 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    position:static;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(40, 37, 37);
+}
+
+#barangcelana .pilihancelana{
+    border: 5px groove;
+    align-items: center;
+    margin: 30px;
+    margin-left: -340px;
+    margin-top: 100px;
+    padding: 30px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+#barangcelana .pilihancelana p{
+    font-size: 25px;}
+#barangcelana .judulcelana h1{
+    color: white;
+    font-size: 40px;
+    margin: 30px;
+    margin-left: 50px;
+}
+#barangcelana .pilihancelana .tombol{
+    color: white;
+    border: 3px gray;
+    cursor: pointer;
+    background-color: black;
+}
+#barangcelana .pilihancelana .gambar{
+    width: 150px;
+    height: 200px;
+}
+#barangcelana .pesan2{
+    display: flex;
+    align-items: center;
+}
+#barangcelana .pesan2 h1{
+    border: 4px outset grey;
+    background-color:white ;
+}
+#barangcelana .pesan2 h1 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(40, 37, 37);
+    border: 4px outset aliceblue;
+    background-color: aliceblue;
+}
+#barangsepatu .pesan2:hover{
+    background-color: brown;
+}
+#barangjam{
+    margin-top: 1000px;
+    margin: 70px 0px;
+    border: 3px ridge grey;
+    border-width: 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    position:static;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(40, 37, 37);
+}
+
+#barangjam .pilihanjam{
+    border: 5px groove;
+    align-items: center;
+    margin: 30px;
+    margin-left: -300px;
+    margin-top: 100px;
+    padding: 30px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+#barangjam .pilihanjam p{
+    font-size: 25px;}
+#barangjam .juduljam h1{
+    color: white;
+    font-size: 40px;
+    margin: 30px;
+    margin-left: 50px;
+}
+#barangjam .pilihanjam .tombol{
+    color: white;
+    border: 3px gray;
+    cursor: pointer;
+    background-color: black;
+}
+#barangjam .pilihanjam .gambar{
+    width: 150px;
+    height: 200px;
+}
+#barangjam .pesan3{
+    display: flex;
+    align-items: center;
+}
+#barangjam .pesan3 h1{
+    border: 4px outset grey;
+    background-color:white ;
+}
+#barangjam .pesan3 h1 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(40, 37, 37);
+    border: 4px outset aliceblue;
+    background-color: aliceblue;
+}
+#barangsepatu{
+    margin-top: 1000px;
+    margin: 70px 0px;
+    border: 3px ridge grey;
+    border-width: 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    position:static;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(40, 37, 37);
+}
+
+#barangsepatu .pilihansepatu{
+    border: 5px groove;
+    align-items: center;
+    margin: 30px;
+    margin-left: -340px;
+    margin-top: 100px;
+    padding: 30px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+#barangsepatu .pilihansepatu p{
+    font-size: 25px;}
+#barangsepatu .judulsepatu h1{
+    color: white;
+    font-size: 40px;
+    margin: 30px;
+    margin-left: 50px;
+}
+#barangsepatu .pilihansepatu .tombol{
+    color: white;
+    border: 3px gray;
+    cursor: pointer;
+    background-color: black;
+}
+#barangsepatu .pilihansepatu .gambar{
+    width: 150px;
+    height: 200px;
+}
+#barangsepatu .pesan4{
+    display: flex;
+    align-items: center;
+}
+#barangsepatu .pesan4 h1{
+    border: 4px outset grey;
+    background-color:white ;
+}
+#barangsepatu .pesan4 h1 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(40, 37, 37);
+    border: 4px outset aliceblue;
+    background-color: aliceblue;
+}
+#barangsepatu .pesan4 h1:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+#barangtopi{
+    margin-top: 1000px;
+    margin: 70px 0px;
+    border: 3px ridge grey;
+    border-width: 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    position:static;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(40, 37, 37);
+}
+
+#barangtopi .pilihantopi{
+    border: 5px groove;
+    align-items: center;
+    margin: 30px;
+    margin-left: -310px;
+    margin-top: 100px;
+    padding: 30px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+#barangtopi .pilihantopi p{
+    font-size: 25px;}
+#barangtopi .judultopi h1{
+    color: white;
+    font-size: 40px;
+    margin: 30px;
+    margin-left: 50px;
+}
+#barangtopi .pilihantopi .tombol{
+    color: white;
+    border: 3px gray;
+    cursor: pointer;
+    background-color: black;
+}
+#barangtopi .pilihantopi .gambar{
+    width: 150px;
+    height: 200px;
+}
+#barangtopi .pesan5{
+    display: flex;
+    align-items: center;
+}
+#barangtopi .pesan5 h1{
+    border: 4px outset grey;
+    background-color:white ;
+}
+#barangtopi .pesan5 h1 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(40, 37, 37);
+    border: 4px outset aliceblue;
+    background-color: aliceblue;
+}
+#barangsepatu .pesan5:hover{
+    background-color: brown;
+}
+#barangkaoskaki{
+    margin-top: 1000px;
+    margin: 70px 0px;
+    border: 3px ridge grey;
+    border-width: 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    position:static;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(40, 37, 37);
+}
+
+#barangkaoskaki .pilihankaoskaki{
+    border: 5px groove;
+    align-items: center;
+    margin: 30px;
+    margin-left: -390px;
+    margin-top: 100px;
+    padding: 30px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+#barangkaoskaki .pilihankaoskaki p{
+    font-size: 25px;}
+#barangkaoskaki .judulkaoskaki h1{
+    color: white;
+    font-size: 40px;
+    margin: 30px;
+    margin-left: 50px;
+}
+#barangkaoskaki .pilihankaoskaki .tombol{
+    color: white;
+    border: 3px gray;
+    cursor: pointer;
+    background-color: black;
+}
+#barangkaoskaki .pilihankaoskaki .gambar{
+    width: 150px;
+    height: 200px;
+}
+#barangkaoskaki .pesan6{
+    display: flex;
+    align-items: center;
+}
+#barangsepatu .pesan6:hover{
+    background-color: brown;
+}
+#barangkaoskaki .pesan6 h1 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(40, 37, 37);
+    border: 4px outset aliceblue;
+    background-color: aliceblue;
+}
+@media screen and (max-width: 800px){
+    header{
+        width: 1000px;
+    }
+    #container{
+        width: 1000px;
+        margin-right: 500px;
+    }
+    
+    .awal{
+        width: 1000px;
+    }
+    #barangbaju{
+          width: 1000px;
+    }
+    #barangcelana{
+        width: 1000px;
+    }
+    #barangjam{
+        width: 1000px;
+    }
+    #barangsepatu{
+        width: 1000px;
+    }
+    #barangtopi{
+        width: 1000px;
+    }
+    #barangkaoskaki{
+        width: 1000px;
+    }
+    
+}
+.clothes{
+    margin-top: 70px;
+    
+}
+#artikel{
+    margin-top: 70px;
+    border: 1px solid black;
+}.clothes span{
+    margin-left: 10px;
+    border: 1px solid transparent;
+    background-color: black;
+    color: aliceblue;
+}
+.clothes span:hover{
+    cursor: pointer;
+}
+.clothes h1{
+    margin-top: -20px;
+}
